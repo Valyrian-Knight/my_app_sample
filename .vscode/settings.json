@@ -1,0 +1,11 @@
+{
+    "python.pythonPath": "C:\\Users\\Zippo\\Anaconda3\\python.exe",
+    "python.linting.enabled": true,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "python.linting.pylintEnabled": true
+}

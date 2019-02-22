@@ -19,7 +19,7 @@ for x in range(0, len(my_str)):
         pass
 print(my_list)
 
-#2nd SOLUTION:
+#2nd SOLUTION(using list(dict)):
 
 # def my_func(x):
 #     return list(dict.fromkeys(x))

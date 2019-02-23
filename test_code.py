@@ -51,3 +51,9 @@ print("type of number", type(num))
 print("type of name", type(name1))
 
 print(str(num) + ' ' + name1)
+
+sentence = f'{name1} je izvukao broj {num}!'
+print(sentence)
+
+print("type of number", type(num))
+print("type of name", type(name1))

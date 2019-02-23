@@ -13,8 +13,10 @@
 # sentence = 'My name is {} and I am {} years old.'.format(person['name'], person['age'])
 # print(sentence)
 
-# sentence = f"My name is {person['name']} and I am {person['age']} years old."
-# print(sentence)
+from datetime import datetime
+person = {'name': 'Robert', 'age': 34}
+sentence = f"My name is {person['name']} and I am {person['age']} years old."
+print(sentence)
 
 # calculation = f'4 times 11 is equal to {4 * 11}'
 # print(calculation)
@@ -27,7 +29,6 @@
 # sentence = f'Pi is equal to {pi:.4f}'     # additional formatting
 # print(sentence)
 
-from datetime import datetime
 
 birthday = datetime(1990, 9, 22)
 

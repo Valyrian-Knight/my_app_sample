@@ -1,6 +1,4 @@
 # My Test App
-This is awesome
-Just another line
-
-Printing and formatting
-Playing around
+This is my test_app \n
+Printing and formatting \n
+Testing

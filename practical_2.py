@@ -4,7 +4,7 @@
 
 # 1st SOLUTION:
 
-user_string = input(print('Please, enter a sentence: ', end = ' '))
+user_string = input('Please, enter a sentence: ')
 
 #user_string = 'The quick brown fox jumps over the lazy dog'
 

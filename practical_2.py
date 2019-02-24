@@ -4,20 +4,20 @@
 
 # 1st SOLUTION:
 
-my_str = 'The quick brown fox jumps over the lazy dog'
+some_string = 'The quick brown fox jumps over the lazy dog'
 
-my_list = []
+new_list = []
 
-for x in range(0, len(my_str)):
-    y = my_str[x].upper()
-    if y == ' ':
+for start_indx in range(0, len(some_string)):
+    mov_indx = some_string[start_indx].upper()
+    if mov_indx == ' ':
         continue
-    elif y not in my_list:
-        my_list.append(y)
-        my_list.sort(reverse=True)
+    elif mov_indx not in new_list:
+        new_list.append(mov_indx)
+        new_list.sort(reverse=True)
     else:
         pass
-print(my_list)
+print(new_list)
 
 #2nd SOLUTION(using list(dict)):
 

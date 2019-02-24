@@ -4,12 +4,14 @@
 
 # 1st SOLUTION:
 
-some_string = 'The quick brown fox jumps over the lazy dog'
+user_string = input(print('Please, enter a sentence: ', end = ' '))
+
+#user_string = 'The quick brown fox jumps over the lazy dog'
 
 new_list = []
 
-for start_indx in range(0, len(some_string)):
-    mov_indx = some_string[start_indx].upper()
+for start_indx in range(0, len(user_string)):
+    mov_indx = user_string[start_indx].upper()
     if mov_indx == ' ':
         continue
     elif mov_indx not in new_list:

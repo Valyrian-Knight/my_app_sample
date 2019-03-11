@@ -14,6 +14,7 @@ print(type(age))
 # print(sentence)
 
 from datetime import datetime
+
 # person = {'name': 'Robert', 'age': 34}
 # sentence = f"My name is {person['name']} and I am {person['age']} years old."
 # print(sentence)
